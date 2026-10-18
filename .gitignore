@@ -1,0 +1,21 @@
+node_modules
+.expo
+dist
+web-build
+expo-env.d.ts
+*.tsbuildinfo
+.env*
+!.env.example
+.DS_Store
+
+# AI tooling / orchestration — never committed
+.claude/
+.impeccable/
+.loadout/
+.gstack/
+CLAUDE.md
+AGENTS.md
+PROJECT.md
+DECISIONS.md
+MISTAKES.md
+DEBT.md

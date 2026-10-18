@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Mesa",
+    "slug": "mesa-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "mesa",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.mesa.app",
+      "predictiveBackGestureEnabled": false
+    },
+    "ios": {
+      "bundleIdentifier": "com.mesa.app",
+      "supportsTablet": true
+    },
+    "web": {
+      "output": "static",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Mesa needs access to your photos so you can upload proof of your reservation deposit."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
